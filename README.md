@@ -2,6 +2,19 @@
 
 This Magento 2 module allows you to upgrade your CMS blocks and pages using UpgradeData scripts.
 
+## Installation
+
+You can install this module using composer
+
+```
+composer require sifuen/module-upgradable-content
+```
+
+Or you can clone this repository and place it into `app/code/Sifuen/UpgradableContent/`.
+
+```
+php bin/magento module:enable Sifuen_UpgradableContent
+```
 
 ## How To Use
 
